@@ -1,0 +1,692 @@
+Archive member included because of file (symbol)
+
+e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                              ./HAL/LCD/LCD_program.o (__mulsi3)
+e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                              ./HAL/LCD/LCD_program.o (__udivmodsi4)
+e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                              e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o (exit)
+e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                              ./main.o (__do_copy_data)
+e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+                              ./HAL/LCD/LCD_program.o (__fixunssfsi)
+e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+                              e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o) (__subsf3)
+e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                              ./HAL/LCD/LCD_program.o (__mulsf3)
+e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+                              ./HAL/LCD/LCD_program.o (__divsf3)
+e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+                              ./HAL/LCD/LCD_program.o (__gtsf2)
+e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+                              e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o) (__gesf2)
+e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+                              ./HAL/LCD/LCD_program.o (__ltsf2)
+e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+                              e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o) (__fixsfsi)
+e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+                              e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__thenan_sf)
+e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                              e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__prologue_saves__)
+e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                              e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__epilogue_restores__)
+e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+                              e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__pack_f)
+e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+                              e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__unpack_f)
+e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+                              e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o) (__fpcmp_parts_f)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+LOAD ./MCAL/EXTI/EXT_program.o
+LOAD ./MCAL/DIO/DIO_program.o
+LOAD ./HAL/Switch/SW_program.o
+LOAD ./HAL/LCD/LCD_program.o
+LOAD ./main.o
+LOAD e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+LOAD e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a
+LOAD e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x309c
+ *(.vectors)
+ .vectors       0x00000000       0x54 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x00000054                . = ALIGN (0x2)
+                0x00000054                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000054        0x0 linker stubs
+ *(.trampolines*)
+                0x00000054                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000054                __ctors_start = .
+ *(.ctors)
+                0x00000054                __ctors_end = .
+                0x00000054                __dtors_start = .
+ *(.dtors)
+                0x00000054                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000054        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x00000054                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000054        0xc e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000060       0x16 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                0x00000060                __do_copy_data
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000076        0x8 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ *(.init9)
+ *(.text)
+ .text          0x0000007e        0x4 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x0000007e                __vector_12
+                0x0000007e                __bad_interrupt
+                0x0000007e                __vector_6
+                0x0000007e                __vector_11
+                0x0000007e                __vector_13
+                0x0000007e                __vector_17
+                0x0000007e                __vector_19
+                0x0000007e                __vector_7
+                0x0000007e                __vector_5
+                0x0000007e                __vector_4
+                0x0000007e                __vector_9
+                0x0000007e                __vector_15
+                0x0000007e                __vector_8
+                0x0000007e                __vector_14
+                0x0000007e                __vector_10
+                0x0000007e                __vector_16
+                0x0000007e                __vector_18
+                0x0000007e                __vector_20
+ .text          0x00000082        0x0 ./MCAL/EXTI/EXT_program.o
+ .text          0x00000082        0x0 ./MCAL/DIO/DIO_program.o
+ .text          0x00000082        0x0 ./HAL/Switch/SW_program.o
+ .text          0x00000082        0x0 ./HAL/LCD/LCD_program.o
+ .text          0x00000082        0x0 ./main.o
+ .text          0x00000082        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .text          0x00000082        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x00000082        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text          0x00000082        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000082       0x58 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+                0x00000082                __fixunssfsi
+ .text          0x000000da      0x354 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+                0x00000372                __subsf3
+                0x000003d4                __addsf3
+ .text          0x0000042e      0x1f4 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                0x0000042e                __mulsf3
+ .text          0x00000622      0x158 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+                0x00000622                __divsf3
+ .text          0x0000077a       0x60 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+                0x0000077a                __gtsf2
+ .text          0x000007da       0x60 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+                0x000007da                __gesf2
+ .text          0x0000083a       0x60 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+                0x0000083a                __ltsf2
+ .text          0x0000089a       0xa8 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+                0x0000089a                __fixsfsi
+ .text          0x00000942        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .text          0x00000942        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .text          0x00000942        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .text          0x00000942      0x1aa e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+                0x00000942                __pack_f
+ .text          0x00000aec       0xf0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+                0x00000aec                __unpack_f
+ .text          0x00000bdc       0xb2 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+                0x00000bdc                __fpcmp_parts_f
+                0x00000c8e                . = ALIGN (0x2)
+ *(.text.*)
+ .text.GEI_voidEnable
+                0x00000c8e       0x1c ./MCAL/EXTI/EXT_program.o
+                0x00000c8e                GEI_voidEnable
+ .text.GEI_voidDisable
+                0x00000caa       0x1c ./MCAL/EXTI/EXT_program.o
+                0x00000caa                GEI_voidDisable
+ .text.EXT_voidEnable_EXT_0
+                0x00000cc6       0xdc ./MCAL/EXTI/EXT_program.o
+                0x00000cc6                EXT_voidEnable_EXT_0
+ .text.EXT_voidEnable_EXT_1
+                0x00000da2       0xdc ./MCAL/EXTI/EXT_program.o
+                0x00000da2                EXT_voidEnable_EXT_1
+ .text.EXT_voidEnable_EXT_2
+                0x00000e7e       0x66 ./MCAL/EXTI/EXT_program.o
+                0x00000e7e                EXT_voidEnable_EXT_2
+ .text.EXT_voidDisable_EXT_0
+                0x00000ee4       0x1c ./MCAL/EXTI/EXT_program.o
+                0x00000ee4                EXT_voidDisable_EXT_0
+ .text.EXT_voidDisable_EXT_1
+                0x00000f00       0x1c ./MCAL/EXTI/EXT_program.o
+                0x00000f00                EXT_voidDisable_EXT_1
+ .text.EXT_voidDisable_EXT_2
+                0x00000f1c       0x1c ./MCAL/EXTI/EXT_program.o
+                0x00000f1c                EXT_voidDisable_EXT_2
+ .text.EXT_voidCLRFlag_EXT_0
+                0x00000f38       0x1c ./MCAL/EXTI/EXT_program.o
+                0x00000f38                EXT_voidCLRFlag_EXT_0
+ .text.EXT_voidCLRFlag_EXT_1
+                0x00000f54       0x1c ./MCAL/EXTI/EXT_program.o
+                0x00000f54                EXT_voidCLRFlag_EXT_1
+ .text.EXT_voidCLRFlag_EXT_2
+                0x00000f70       0x1c ./MCAL/EXTI/EXT_program.o
+                0x00000f70                EXT_voidCLRFlag_EXT_2
+ .text.DIO_voidSetPortDirection
+                0x00000f8c      0x12e ./MCAL/DIO/DIO_program.o
+                0x00000f8c                DIO_voidSetPortDirection
+ .text.DIO_voidSetPortValue
+                0x000010ba       0x82 ./MCAL/DIO/DIO_program.o
+                0x000010ba                DIO_voidSetPortValue
+ .text.DIO_voidSetPinDirection
+                0x0000113c      0x37c ./MCAL/DIO/DIO_program.o
+                0x0000113c                DIO_voidSetPinDirection
+ .text.DIO_voidSetPinValue
+                0x000014b8      0x1f8 ./MCAL/DIO/DIO_program.o
+                0x000014b8                DIO_voidSetPinValue
+ .text.DIO_u8GetPortValue
+                0x000016b0       0x82 ./MCAL/DIO/DIO_program.o
+                0x000016b0                DIO_u8GetPortValue
+ .text.DIO_u8GetPinValue
+                0x00001732       0xf2 ./MCAL/DIO/DIO_program.o
+                0x00001732                DIO_u8GetPinValue
+ .text.SW_voidInit
+                0x00001824       0x3c ./HAL/Switch/SW_program.o
+                0x00001824                SW_voidInit
+ .text.SW_u8IsPressed
+                0x00001860       0x28 ./HAL/Switch/SW_program.o
+                0x00001860                SW_u8IsPressed
+ .text.LCD_voidInit
+                0x00001888      0xb92 ./HAL/LCD/LCD_program.o
+                0x00001888                LCD_voidInit
+ .text.LCD_voidSendNibble
+                0x0000241a      0x25a ./HAL/LCD/LCD_program.o
+                0x0000241a                LCD_voidSendNibble
+ .text.LCD_voidSendChar
+                0x00002674      0x126 ./HAL/LCD/LCD_program.o
+                0x00002674                LCD_voidSendChar
+ .text.LCD_voidSendCommand
+                0x0000279a      0x126 ./HAL/LCD/LCD_program.o
+                0x0000279a                LCD_voidSendCommand
+ .text.LCD_voidSendStr
+                0x000028c0       0x52 ./HAL/LCD/LCD_program.o
+                0x000028c0                LCD_voidSendStr
+ .text.LCD_voidClear
+                0x00002912       0x14 ./HAL/LCD/LCD_program.o
+                0x00002912                LCD_voidClear
+ .text.LCD_voidSendNumber
+                0x00002926      0x142 ./HAL/LCD/LCD_program.o
+                0x00002926                LCD_voidSendNumber
+ .text.LCD_voidgoto
+                0x00002a68       0x36 ./HAL/LCD/LCD_program.o
+                0x00002a68                LCD_voidgoto
+ .text.main     0x00002a9e      0x10e ./main.o
+                0x00002a9e                main
+ .text.__vector_1
+                0x00002bac      0x154 ./main.o
+                0x00002bac                __vector_1
+ .text.__vector_2
+                0x00002d00      0x154 ./main.o
+                0x00002d00                __vector_2
+ .text.__vector_3
+                0x00002e54      0x154 ./main.o
+                0x00002e54                __vector_3
+ .text.libgcc   0x00002fa8       0x3e e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                0x00002fa8                __mulsi3
+ .text.libgcc   0x00002fe6       0x44 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                0x00002fe6                __udivmodsi4
+ .text.libgcc   0x0000302a        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x0000302a        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000302a       0x38 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                0x0000302a                __prologue_saves__
+ .text.libgcc   0x00003062       0x36 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                0x00003062                __epilogue_restores__
+                0x00003098                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00003098        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x00003098                exit
+                0x00003098                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00003098        0x4 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000309c                _etext = .
+
+.data           0x00800060       0x36 load address 0x0000309c
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .data          0x00800060        0x0 ./MCAL/EXTI/EXT_program.o
+ .data          0x00800060        0x0 ./MCAL/DIO/DIO_program.o
+ .data          0x00800060        0x0 ./HAL/Switch/SW_program.o
+ .data          0x00800060        0x0 ./HAL/LCD/LCD_program.o
+ .data          0x00800060       0x24 ./main.o
+ .data          0x00800084        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .data          0x00800084        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x00800084        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .data          0x00800084        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800084        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .data          0x00800084        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .data          0x00800084        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .data          0x00800084        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .data          0x00800084        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .data          0x00800084        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .data          0x00800084        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .data          0x00800084        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .data          0x00800084        0x8 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+                0x00800084                __thenan_sf
+ .data          0x0080008c        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .data          0x0080008c        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .data          0x0080008c        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .data          0x0080008c        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .data          0x0080008c        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.C.2.1334
+                0x0080008c        0x3 ./main.o
+ .rodata.C.1.1333
+                0x0080008f        0x3 ./main.o
+ .rodata.C.0.1332
+                0x00800092        0x3 ./main.o
+ *(.gnu.linkonce.d*)
+                0x00800096                . = ALIGN (0x2)
+ *fill*         0x00800095        0x1 00
+                0x00800096                _edata = .
+                0x00800096                PROVIDE (__data_end, .)
+
+.bss            0x00800096        0x0
+                0x00800096                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800096        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .bss           0x00800096        0x0 ./MCAL/EXTI/EXT_program.o
+ .bss           0x00800096        0x0 ./MCAL/DIO/DIO_program.o
+ .bss           0x00800096        0x0 ./HAL/Switch/SW_program.o
+ .bss           0x00800096        0x0 ./HAL/LCD/LCD_program.o
+ .bss           0x00800096        0x0 ./main.o
+ .bss           0x00800096        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .bss           0x00800096        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x00800096        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .bss           0x00800096        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00800096        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .bss           0x00800096        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .bss           0x00800096        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .bss           0x00800096        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .bss           0x00800096        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .bss           0x00800096        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .bss           0x00800096        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .bss           0x00800096        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .bss           0x00800096        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .bss           0x00800096        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .bss           0x00800096        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .bss           0x00800096        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .bss           0x00800096        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .bss           0x00800096        0x0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ *(.bss*)
+ *(COMMON)
+                0x00800096                PROVIDE (__bss_end, .)
+                0x0000309c                __data_load_start = LOADADDR (.data)
+                0x000030d2                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800096        0x0
+                0x00800096                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800096                PROVIDE (__noinit_end, .)
+                0x00800096                _end = .
+                0x00800096                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x00000000     0x2328
+ *(.stab)
+ .stab          0x00000000      0x450 ./MCAL/EXTI/EXT_program.o
+ .stab          0x00000450      0x6d8 ./MCAL/DIO/DIO_program.o
+                                0x6e4 (size before relaxing)
+ .stab          0x00000b28      0x228 ./HAL/Switch/SW_program.o
+                                0x234 (size before relaxing)
+ .stab          0x00000d50     0x1068 ./HAL/LCD/LCD_program.o
+                               0x1074 (size before relaxing)
+ .stab          0x00001db8      0x570 ./main.o
+                                0x720 (size before relaxing)
+
+.stabstr        0x00000000      0xdb5
+ *(.stabstr)
+ .stabstr       0x00000000      0xdb5 ./MCAL/EXTI/EXT_program.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x160
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_aranges
+                0x00000020       0x20 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_aranges
+                0x00000040       0x20 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_aranges
+                0x00000060       0x20 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_aranges
+                0x00000080       0x20 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_aranges
+                0x000000a0       0x20 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_aranges
+                0x000000c0       0x20 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_aranges
+                0x000000e0       0x20 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_aranges
+                0x00000100       0x20 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_aranges
+                0x00000120       0x20 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_aranges
+                0x00000140       0x20 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_pubnames
+                0x00000000      0x18f
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x23 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_pubnames
+                0x00000023       0x2c e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_pubnames
+                0x0000004f       0x1f e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_pubnames
+                0x0000006e       0x1f e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_pubnames
+                0x0000008d       0x1e e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_pubnames
+                0x000000ab       0x1e e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_pubnames
+                0x000000c9       0x1e e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_pubnames
+                0x000000e7       0x20 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_pubnames
+                0x00000107       0x22 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_pubnames
+                0x00000129       0x1f e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_pubnames
+                0x00000148       0x21 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_pubnames
+                0x00000169       0x26 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_info     0x00000000     0x2045
+ *(.debug_info)
+ .debug_info    0x00000000       0xb1 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_info    0x000000b1      0x47a e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_info    0x0000052b      0x485 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_info    0x000009b0      0x3fc e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_info    0x00000dac      0x27f e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_info    0x0000102b      0x27f e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_info    0x000012aa      0x27f e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_info    0x00001529      0x2b0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_info    0x000017d9      0x12c e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_info    0x00001905      0x2df e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_info    0x00001be4      0x251 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_info    0x00001e35      0x210 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000     0x1101
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x5d e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_abbrev  0x0000005d      0x1ea e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_abbrev  0x00000247      0x21b e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_abbrev  0x00000462      0x216 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_abbrev  0x00000678      0x15a e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_abbrev  0x000007d2      0x15a e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_abbrev  0x0000092c      0x15a e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_abbrev  0x00000a86      0x17f e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_abbrev  0x00000c05       0xad e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_abbrev  0x00000cb2      0x1c0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_abbrev  0x00000e72      0x154 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_abbrev  0x00000fc6      0x13b e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_line     0x00000000      0xf82
+ *(.debug_line)
+ .debug_line    0x00000000       0xa7 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_line    0x000000a7      0x2af e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_line    0x00000356      0x239 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_line    0x0000058f      0x1d5 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_line    0x00000764       0xd3 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_line    0x00000837       0xd3 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_line    0x0000090a       0xd3 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_line    0x000009dd      0x109 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_line    0x00000ae6       0x90 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_line    0x00000b76      0x18a e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_line    0x00000d00      0x14b e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_line    0x00000e4b      0x137 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_frame    0x00000000      0x180
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x20 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_frame   0x00000020       0x40 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_frame   0x00000060       0x20 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_frame   0x00000080       0x20 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_frame   0x000000a0       0x20 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_frame   0x000000c0       0x20 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_frame   0x000000e0       0x20 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_frame   0x00000100       0x20 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_frame   0x00000120       0x20 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_frame   0x00000140       0x20 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_frame   0x00000160       0x20 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_str      0x00000000      0x2c2
+ *(.debug_str)
+ .debug_str     0x00000000       0xbf e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+                                 0xfe (size before relaxing)
+ .debug_str     0x000000bf      0x14d e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+                                0x206 (size before relaxing)
+ .debug_str     0x0000020c       0x27 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                                0x1bf (size before relaxing)
+ .debug_str     0x00000233       0x35 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+                                0x1c8 (size before relaxing)
+ .debug_str     0x00000268        0xf e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x00000277        0x8 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x0000027f        0x8 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x00000287        0xa e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+                                0x19e (size before relaxing)
+ .debug_str     0x00000000      0x103 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_str     0x00000291       0x16 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+                                0x19d (size before relaxing)
+ .debug_str     0x000002a7        0xb e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+                                0x17f (size before relaxing)
+ .debug_str     0x000002b2       0x10 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+                                0x163 (size before relaxing)
+
+.debug_loc      0x00000000      0x88e
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x34 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_loc     0x00000034      0x32a e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_loc     0x0000035e      0x104 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_loc     0x00000462       0xc0 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_loc     0x00000522       0x3c e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_loc     0x0000055e       0x3c e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_loc     0x0000059a       0x3c e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_loc     0x000005d6       0x7e e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_loc     0x00000654      0x13e e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_loc     0x00000792       0xac e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_loc     0x0000083e       0x50 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(LCDPro.elf elf32-avr)
+LOAD linker stubs
+
+.debug_ranges   0x00000000       0x50
+ .debug_ranges  0x00000000       0x50 e:/@beded/rar/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
