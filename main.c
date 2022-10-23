@@ -11,11 +11,13 @@
 #include "services/STD_TYPES.h"
 #include "services/BIT_MATH.h"
 
+#include "MCAL/EXTI/EXT_interface.h"
+#include "MCAL/DIO/DIO_interface.h"
+
 #include "HAL/LCD/LCD_interface.h"
 #include "HAL/Switch/SW_interface.h"
 
-#include "MCAL/EXTI/EXT_interface.h"
-#include "MCAL/DIO/DIO_interface.h"
+
 
 int main(void)
 {
