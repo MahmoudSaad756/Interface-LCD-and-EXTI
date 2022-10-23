@@ -44,7 +44,7 @@ int main(void)
 ISR(EXT_INT0)
 {
 	LCD_voidClear();
-	LCD_voidgoto(1,0);
+	LCD_voidgoto(1,1);
 	LCD_voidSendStr((u8 *)"I am EXTI 0");
 	_delay_ms(500);
 }
